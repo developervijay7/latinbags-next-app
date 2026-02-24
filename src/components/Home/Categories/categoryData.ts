@@ -1,43 +1,44 @@
+// categoryData.ts
 const data = [
   {
-    title: "Televisions",
     id: 1,
-    img: "/images/categories/categories-01.png",
+    title: "Backpacks",
+    img: "/images/categories/backpack.png",
   },
   {
-    title: "Laptop & PC",
     id: 2,
-    img: "/images/categories/categories-02.png",
+    title: "Handbags",
+    img: "/images/categories/handbag.png",
   },
   {
-    title: "Mobile & Tablets",
     id: 3,
-    img: "/images/categories/categories-03.png",
+    title: "Laptop Bags",
+    img: "/images/categories/laptop-bag.png",
   },
   {
-    title: "Games & Videos",
     id: 4,
-    img: "/images/categories/categories-04.png",
+    title: "Wallets",
+    img: "/images/categories/wallet.png",
   },
   {
-    title: "Home Appliances",
     id: 5,
-    img: "/images/categories/categories-05.png",
+    title: "Travel Bags",
+    img: "/images/categories/travel-bag.png",
   },
   {
-    title: "Health & Sports",
     id: 6,
-    img: "/images/categories/categories-06.png",
+    title: "Messenger Bags",
+    img: "/images/categories/messenger-bag.png",
   },
   {
-    title: "Watches",
     id: 7,
-    img: "/images/categories/categories-07.png",
+    title: "Duffel Bags",
+    img: "/images/categories/duffel-bag.png",
   },
   {
-    title: "Televisions",
     id: 8,
-    img: "/images/categories/categories-04.png",
+    title: "Accessory Pouches",
+    img: "/images/categories/accessory-pouch.png",
   },
 ];
 

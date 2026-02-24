@@ -38,13 +38,13 @@ const Header = () => {
 
   const options = [
     { label: "All Categories", value: "0" },
-    { label: "Desktop", value: "1" },
-    { label: "Laptop", value: "2" },
-    { label: "Monitor", value: "3" },
-    { label: "Phone", value: "4" },
-    { label: "Watch", value: "5" },
-    { label: "Mouse", value: "6" },
-    { label: "Tablet", value: "7" },
+    { label: "Handbags", value: "1" },
+    { label: "Backpacks", value: "2" },
+    { label: "Wallets", value: "3" },
+    { label: "Laptop Bags", value: "4" },
+    { label: "Travel Bags", value: "5" },
+    { label: "Clutches & Pouches", value: "6" },
+    { label: "Accessories", value: "7" },
   ];
 
   return (
@@ -147,9 +147,9 @@ const Header = () => {
                 <span className="block text-2xs text-dark-4 uppercase">
                   24/7 SUPPORT
                 </span>
-                <p className="font-medium text-custom-sm text-dark">
-                  (+965) 7492-3477
-                </p>
+                <a href="tel:+919557654553" className="font-medium text-custom-sm text-dark">
+                  (+91)95576-54553
+                </a>
               </div>
             </div>
 
@@ -236,7 +236,7 @@ const Header = () => {
                       cart
                     </span>
                     <p className="font-medium text-custom-sm text-dark">
-                      ${totalPrice}
+                      ₹{totalPrice}
                     </p>
                   </div>
                 </button>

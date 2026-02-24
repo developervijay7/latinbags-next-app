@@ -5,40 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47423d9b-1665-4e73-951f-48e5e6a533b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/CustomSelect.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Dropdown.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/CartSidebarModal/EmptyCart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/CartSidebarModal/SingleItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/CartSidebarModal/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/PreLoader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/PreviewSlider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/QuickViewModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/ScrollToTop.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/menuData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/context/CartSidebarModalContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/context/PreviewSliderContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/context/QuickViewModalContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/redux/features/cart-slice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/redux/features/product-details.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/redux/features/quickView-slice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/redux/features/wishlist-slice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/redux/provider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/redux/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/types/Menu.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/types/Products.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/payment/payment-01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/payment/payment-02.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/payment/payment-03.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/payment/payment-04.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/payment/payment-05.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Countdown.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(site)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(site)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/ProductItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/ProductItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/menuData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/menuData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/BestSeller/SingleItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/BestSeller/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Categories/categoryData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Categories/categoryData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Countdown/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Hero/HeroCarousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Hero/HeroCarousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Hero/HeroFeature.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Hero/HeroFeature.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Hero/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Hero/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/NewArrivals/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/NewArrivals/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/PromoBanner/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Testimonials/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Testimonials/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Testimonials/testimonialsData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Testimonials/testimonialsData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/shopData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/shopData.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
