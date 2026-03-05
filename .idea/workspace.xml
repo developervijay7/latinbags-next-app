@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47423d9b-1665-4e73-951f-48e5e6a533b0" name="Changes" comment="Deleted">
-      <change afterPath="$PROJECT_DIR$/app/api/checkout/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CartDrawer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Logo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ProductCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Subscribe.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/about/AboutCTA.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/about/AboutHero.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/about/BrandStory.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/about/Craftsmanship.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/about/WhyChoose.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/contact/ContactDetails.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/contact/ContactForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/contact/ContactHero.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/contact/ContactMap.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/product/ProductDetails.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/product/ProductGallery.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/product/ProductInfo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/product/RelatedProducts.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cart.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/product/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/product/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/products/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/shop/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/shop/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="47423d9b-1665-4e73-951f-48e5e6a533b0" name="Changes" comment="Deleted Cart Page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +93,7 @@
       <updated>1770007782117</updated>
       <workItem from="1770007783408" duration="7656000" />
       <workItem from="1772685786423" duration="3908000" />
-      <workItem from="1772701180828" duration="6858000" />
+      <workItem from="1772701180828" duration="7190000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -159,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772689752352</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Deleted">
+      <option name="closed" value="true" />
+      <created>1772708132693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1772708132693</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Deleted Cart Page">
+      <option name="closed" value="true" />
+      <created>1772708264956</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1772708264956</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="Deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted" />
+    <MESSAGE value="Deleted Cart Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted Cart Page" />
   </component>
 </project>
