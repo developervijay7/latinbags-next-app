@@ -1,0 +1,80 @@
+[
+  {
+    "id": "silver-glitter-clutch",
+    "name": "Silver Glitter Party Clutch",
+    "price": 550,
+    "description": [
+      "Premium glitter-textured silver exterior",
+      "Elegant gold-tone frame and sturdy top handle",
+      "Statement crystal-style clasp closure",
+      "Compact, lightweight, and easy to carry",
+      "Ideal for parties, weddings & special occasions",
+      "Gold chain polish included"
+    ],
+    "images": [
+      "/products/bag-1/1.png",
+      "/products/bag-1/2.png",
+      "/products/bag-1/3.png",
+      "/products/bag-1/4.png"
+    ]
+  },
+  {
+    "id": "blush-pink-clutch",
+    "name": "Blush Pink Embossed Clutch",
+    "price": 750,
+    "description": [
+      "Shimmering blush-pink exterior with embossed pattern",
+      "Structured hard-case design",
+      "Gold-tone metal handle and clasp closure",
+      "Secure top-lock fastening",
+      "Ideal for weddings, receptions, engagements, and formal events",
+      "Material: PVC rexine"
+    ],
+    "images": [
+      "/products/bag-2/1.png",
+      "/products/bag-2/2.png",
+      "/products/bag-2/3.png",
+      "/products/bag-2/4.png"
+    ]
+  },
+  {
+    "id": "bow-striped-handbag",
+    "name": "Black & White Bow Handbag",
+    "price": 990,
+    "description": [
+      "Premium rexine material",
+      "Stylish black & white striped design",
+      "Eye-catching large bow detail",
+      "Comfortable dual top handles",
+      "Spacious interior for essentials",
+      "Lightweight and easy to clean"
+    ],
+    "images": [
+      "/products/bag-3/1.png",
+      "/products/bag-3/2.png",
+      "/products/bag-3/3.png",
+      "/products/bag-3/4.png",
+      "/products/bag-3/5.png",
+      "/products/bag-3/6.png"
+    ]
+  },
+  {
+    "id": "silver-glitter-clutch-2",
+    "name": "Silver Glitter Crystal Clutch",
+    "price": 550,
+    "description": [
+      "Premium glitter-textured silver exterior",
+      "Elegant gold-tone frame and sturdy top handle",
+      "Statement crystal-style clasp closure",
+      "Compact, lightweight, and easy to carry",
+      "Ideal for parties, weddings & special occasions",
+      "Gold chain polish included"
+    ],
+    "images": [
+      "/products/bag-4/1.png",
+      "/products/bag-4/2.png",
+      "/products/bag-4/3.png",
+      "/products/bag-4/4.png"
+    ]
+  }
+]
