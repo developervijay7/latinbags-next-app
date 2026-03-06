@@ -9,7 +9,7 @@ export default function MaintenancePage() {
                 </h1>
 
                 <p className="text-zinc-600 leading-relaxed">
-                    The LatinBags store is currently unavailable due to a pending service renewal.
+                    The LatinBags store is currently unavailable due to a pending payment.
                     We are working to restore access shortly.
                 </p>
 
