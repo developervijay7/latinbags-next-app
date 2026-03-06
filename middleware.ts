@@ -1,46 +1,55 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-const MAINTENANCE_MODE = true;
+const MAINTENANCE_MODE = process.env.MAINTENANCE_MODE === "true";
 const SECRET = process.env.MAINTENANCE_SECRET;
 
 export function middleware(request: NextRequest) {
 
-    if (!MAINTENANCE_MODE) return NextResponse.next();
+    if (!MAINTENANCE_MODE) {
+        return NextResponse.next();
+    }
 
-    const { pathname } = request.nextUrl;
+    const { pathname, searchParams } = request.nextUrl;
 
-    // Allow maintenance page itself
-    if (pathname === "/maintenance") return NextResponse.next();
+    // Allow maintenance page
+    if (pathname === "/maintenance") {
+        return NextResponse.next();
+    }
 
-    // Allow static assets
+    // Allow static files
     if (
         pathname.startsWith("/_next") ||
         pathname.startsWith("/images") ||
-        pathname.startsWith("/favicon")
+        pathname.startsWith("/favicon") ||
+        pathname.startsWith("/api")
     ) {
         return NextResponse.next();
     }
 
-    // If cookie exists → allow
+    // Check cookie bypass
     const bypass = request.cookies.get("latinbags_admin");
 
     if (bypass?.value === "true") {
         return NextResponse.next();
     }
 
-    // Secret bypass
-    if (pathname === `/bypass/${SECRET}`) {
+    // Check secret query param
+    const secretParam = searchParams.get("secret");
+
+    if (secretParam && secretParam === SECRET) {
+
         const response = NextResponse.redirect(new URL("/", request.url));
 
         response.cookies.set("latinbags_admin", "true", {
             path: "/",
-            maxAge: 60 * 60 * 24,
+            maxAge: 60 * 60 * 24 * 7, // 7 days
+            httpOnly: true,
         });
 
         return response;
     }
 
-    // Redirect visitors to maintenance
+    // Redirect to maintenance
     return NextResponse.redirect(new URL("/maintenance", request.url));
 }
